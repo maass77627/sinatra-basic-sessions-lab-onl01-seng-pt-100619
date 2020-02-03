@@ -18,6 +18,9 @@ post '/checkout' do
   
   @user_item = params[:name]
   
+  @item = params[:item]
+        session["item"] = @item
+  
   erb :checkout
 end 
 

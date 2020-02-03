@@ -14,6 +14,7 @@ erb :index
 end 
 
 post '/checkout' do 
+  params[:name]
   
   erb :checkout
 end 

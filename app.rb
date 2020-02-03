@@ -14,6 +14,8 @@ erb :index
 end 
 
 post '/checkout' do 
+  @session = session
+  
   @user_item = params[:name]
   
   erb :checkout

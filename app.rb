@@ -7,7 +7,7 @@ configure do
   set :session_secret, "secret"
 end 
 
-get '/'
+get '/' do 
 
 @session = session
   

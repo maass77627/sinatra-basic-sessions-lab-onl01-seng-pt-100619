@@ -13,4 +13,9 @@ erb :index
 
 end 
 
+post '/checkout' do 
+  
+  erb :checkout
+end 
+
 end

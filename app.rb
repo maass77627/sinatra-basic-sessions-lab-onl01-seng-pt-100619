@@ -14,7 +14,7 @@ erb :index
 end 
 
 post '/checkout' do 
-  params[:name]
+  @user_item = params[:name]
   
   erb :checkout
 end 
